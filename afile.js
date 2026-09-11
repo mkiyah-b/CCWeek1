@@ -32,7 +32,7 @@ else {
         // console.log(randomHeight);
         firefly.style.top = randomHeight + "px";
         
-        let randomWidth = (Math.random() * 650) + jarPos.x + 1000; 
+        let randomWidth = (Math.random() * 650) + jarPos.x + 650; 
         // console.log(randomWidth);
         firefly.style.left = randomWidth + "px";
         
