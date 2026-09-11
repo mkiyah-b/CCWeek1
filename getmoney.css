@@ -50,8 +50,7 @@ html {
 }
 
 .split img {
-  width: 85%;
-  height: 95%;
+  height: 80%;
   object-fit: cover;
 }
 
