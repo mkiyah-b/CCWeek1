@@ -28,11 +28,11 @@ else {
     console.log(jarPos.y);
     const fireflies = document.querySelectorAll("#ff1");
     fireflies.forEach(firefly => {
-        let randomHeight = (Math.random() * 550) + jarPos.y + 200; 
+        let randomHeight = (Math.random() * 900) + jarPos.y + 200; 
         // console.log(randomHeight);
         firefly.style.top = randomHeight + "px";
         
-        let randomWidth = (Math.random() * 350) + jarPos.x + 350; 
+        let randomWidth = (Math.random() * 650) + jarPos.x + 550; 
         // console.log(randomWidth);
         firefly.style.left = randomWidth + "px";
         
